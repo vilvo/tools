@@ -44,7 +44,7 @@ if __name__ == '__main__':
         elif opt == '-p':
             if arg == 'ON':
                 power_supply.on()
-            if arg == 'OFF':
+            elif arg == 'OFF':
                 power_supply.off()
             else:
                 print usage
